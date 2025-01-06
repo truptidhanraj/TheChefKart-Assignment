@@ -1,0 +1,42 @@
+
+GET http://localhost:3000/users 
+
+### 
+
+
+GET http://localhost:3000/posts 
+
+### 
+
+
+POST http://localhost:3000/posts/
+Content-Type: application/json  
+
+{
+"title": "My New Pet Dog",
+"description": "It is my new pet dog, suzy. Finally i found it. Is is too cute.",
+"user_id": 2,
+"images": "image6.jpg"
+}
+
+###
+
+
+DELETE http://localhost:3000/posts/8/
+
+### 
+
+PUT http://localhost:3000/posts/7/
+Content-Type: application/json 
+
+{
+"title": "Feeling Blessed",
+"description": "Greatful for all the love and support in my life.",
+"user_id": 2,
+"images": "image8.jpg"
+
+}
+
+### 
+
+GET http://localhost:3000/users/2/posts/

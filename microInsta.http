@@ -1,15 +1,15 @@
 
-GET http://localhost:3000/users 
+GET http://localhost:10000/users 
 
 ### 
 
 
-GET http://localhost:3000/posts 
+GET http://localhost:10000/posts 
 
 ### 
 
 
-POST http://localhost:3000/posts/
+POST http://localhost:10000/posts/
 Content-Type: application/json  
 
 {
@@ -22,11 +22,11 @@ Content-Type: application/json
 ###
 
 
-DELETE http://localhost:3000/posts/8/
+DELETE http://localhost:10000/posts/8/
 
 ### 
 
-PUT http://localhost:3000/posts/7/
+PUT http://localhost:10000/posts/7/
 Content-Type: application/json 
 
 {
@@ -39,4 +39,4 @@ Content-Type: application/json
 
 ### 
 
-GET http://localhost:3000/users/2/posts/
+GET http://localhost:10000/users/2/posts/

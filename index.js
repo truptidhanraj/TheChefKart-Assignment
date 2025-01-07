@@ -1,7 +1,7 @@
 
 const express = require("express");
 const path = require("path");
-
+const port = process.evn.PORT || 10000;
 
 const { open } = require("sqlite");
 const sqlite3 = require("sqlite3");
